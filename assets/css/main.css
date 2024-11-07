@@ -1277,7 +1277,28 @@ section,
   padding: 25px 15px;
   text-align: center;
 }
+.team .team-member .member-info .buy-btn {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 20px 10px 20px;
+  border-radius: 50px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
+  transition: none;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: var(--heading-font);
+  transition: 0.3s;
+}
+.team .team-member .member-info .buy-btn i {
+  font-size: 11px;
+  padding-right: 4px;
+}
 
+.team .team-member .member-info .buy-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
 .team .team-member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
